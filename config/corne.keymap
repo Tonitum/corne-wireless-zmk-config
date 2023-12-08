@@ -49,9 +49,9 @@
 
             label = "Numbers";
             bindings = <
-&trans  &kp LEFT_BRACKET          &kp RIGHT_BRACKET     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE        &kp SLASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp BACKSLASH     &kp BSPC
-&trans  &kp NUMBER_1              &kp NUMBER_2          &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9      &kp NUMBER_0      &trans
-&trans  &mt LEFT_WIN EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &kp DOLLAR       &kp PERCENT     &kp CARET     &kp AMPERSAND         &mt LCTRL ASTERISK     &mt LEFT_ALT F11  &mt LEFT_WIN F12  &trans
+&trans  &kp LEFT_BRACKET          &kp RIGHT_BRACKET     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE        &kp SLASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL           &kp BACKSLASH     &kp BSPC
+&trans  &kp NUMBER_1              &kp NUMBER_2          &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9        &kp NUMBER_0      &kp GRAVE
+&trans  &mt LEFT_WIN EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &kp DOLLAR       &kp PERCENT     &kp CARET     &kp AMPERSAND         &mt LCTRL ASTERISK     &mt LEFT_ALT MINUS  &mt LEFT_WIN F12  &trans
                                                         &to 0           &trans           &trans          &trans        &trans                &to 2
             >;
         };
@@ -67,7 +67,7 @@
             bindings = <
 &trans  &trans  &trans  &kp END  &kp LC(R)  &kp LG(NUMBER_1)    &kp K_COPY  &kp K_UNDO     &kp HOME      &kp LA(TAB)  &kp K_PASTE   &trans
 &trans  &trans  &trans  &trans   &trans     &kp LG(NUMBER_2)    &kp LEFT    &kp DOWN       &kp UP_ARROW  &kp RIGHT    &kp LCTRL     &trans
-&trans  &trans  &trans  &trans   &trans     &kp LG(NUMBER_3)    &kp LG(T)   &kp LC(LS(M))  &kp COMMA     &kp PERIOD   &kp LEFT_WIN  &kp TILDE
+&trans  &trans  &trans  &trans   &trans     &kp LG(NUMBER_3)    &kp LG(T)   &kp LC(LS(M))  &kp COMMA     &kp PERIOD   &kp LEFT_WIN  &trans
                         &to 0    &trans     &trans              &trans      &trans         &to 0
             >;
         };
