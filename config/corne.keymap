@@ -64,10 +64,10 @@
 
             label = "Navigation";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                             &to 0     &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+&trans  &trans  &trans  &kp END  &kp LC(R)  &kp LG(NUMBER_1)    &kp K_COPY  &kp K_UNDO     &kp HOME      &kp LA(TAB)  &kp K_PASTE   &trans
+&trans  &trans  &trans  &trans   &trans     &kp LG(NUMBER_2)    &kp LEFT    &kp DOWN       &kp UP_ARROW  &kp RIGHT    &kp LCTRL     &trans
+&trans  &trans  &trans  &trans   &trans     &kp LG(NUMBER_3)    &kp LG(T)   &kp LC(LS(M))  &kp COMMA     &kp PERIOD   &kp LEFT_WIN  &kp TILDE
+                        &to 0    &trans     &trans              &trans      &trans         &to 0
             >;
         };
 
